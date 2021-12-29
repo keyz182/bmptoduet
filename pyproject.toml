@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bmptoduet"
-version = "0.1.0"
+version = "0.1.1"
 license = "MIT"
 description = "Convert Monochrome BMP to Duet3D Menu Image"
 authors = ["Kieran David Evans <keyz182@gmail.com>"]
@@ -9,7 +9,7 @@ homepage = "https://github.com/keyz182/bmptoduet"
 repository = "https://github.com/keyz182/bmptoduet"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.11"
+python = ">=3.7,<3.11"
 Pillow = "^8.4.0"
 numpy = "^1.21.5"
 

@@ -16,8 +16,8 @@ python-versions = ">=3.6"
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.9,<3.11"
-content-hash = "182ac87553a85ff3a49983c27a66fc2a04c707557d1f13ee4aa36b17cc3a2ed0"
+python-versions = ">=3.7,<3.11"
+content-hash = "72eba5a7053caa6a9cd4d37fa1c75f0735d856e37b4f4eb13b450c9ecca8a568"
 
 [metadata.files]
 numpy = [
