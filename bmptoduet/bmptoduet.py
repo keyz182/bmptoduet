@@ -29,9 +29,11 @@ def main(infile: str, outfile: str) -> int:
         out.write((im.width).to_bytes(1, byteorder='big'))
         out.write((im.height).to_bytes(1, byteorder='big'))
 
-        # loop through the rows and pack the rows into arrays of bytes
+        # loop through the rows
         for row in im_array:
-            bits = np.packbits(row, bitorder="little")
+            # and pack the reversed row into an array of bytes
+            bits = np.packbits(row[::-1], bitorder="little")
+            
             # write out the bytes, but in reverse order
             out.write(bits.tobytes()[::-1])
 

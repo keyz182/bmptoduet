@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bmptoduet"
-version = "0.1.1"
+version = "0.1.2"
 license = "MIT"
 description = "Convert Monochrome BMP to Duet3D Menu Image"
 authors = ["Kieran David Evans <keyz182@gmail.com>"]
